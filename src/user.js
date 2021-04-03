@@ -12,7 +12,7 @@ const UserSchema = new Schema({
     required: [true, "Name is required."],
   },
   postCount: Number,
-  post: [PostSchema],
+  posts: [PostSchema],
 });
 
 const User = mongoose.model("user", UserSchema);
