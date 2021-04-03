@@ -1,5 +1,4 @@
 const assert = require("assert");
-const { utimesSync } = require("fs");
 const User = require("../src/user");
 
 describe("Reading users out of database", () => {
